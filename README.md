@@ -34,10 +34,4 @@ server {
 Run it with `goahead -run`
 
 #### Questions? 
-`goahead -help` 
-
-
-### Maintainers
-
-Claudson Oliveira - [github.com/cloudson](http://github.com/cloudson)  
-Vinicius Oliveira - [github.com/viniciuswebdev](http://github.com/viniciuswebdev)
+`goahead -help` or [open an issue](https://github.com/Zocprint/go301/issues)
