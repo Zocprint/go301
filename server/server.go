@@ -5,7 +5,7 @@ import (
     "net/http"
     "net/http/fcgi"
     "log"
-    "github.com/viniciuswebdev/goahead/database"
+    "github.com/Zocprint/go301/database"
 )
 
 type Server struct {

@@ -1,11 +1,13 @@
 package main
 
+// This is a fork from https://github.com/viniciuswebdev/goahead
+
 import (
 	"code.google.com/p/gcfg"
 	"flag"
 	"fmt"
-	"github.com/viniciuswebdev/goahead/database"
-	"github.com/viniciuswebdev/goahead/server"
+	"github.com/Zocprint/go301/database"
+	"github.com/Zocprint/go301/server"
 	"log"
 )
 
@@ -54,7 +56,7 @@ func main() {
 }
 
 func showHelp() {
-	fmt.Println("Goahead is a simple service that redirects routes\n")
+	fmt.Println("Go301 is a simple service that redirects routes\n")
 	fmt.Println("Usage: ")
 	fmt.Println("\t goahead [argument [-config filepath with ini configuration]]")
 	fmt.Println("")
@@ -63,7 +65,7 @@ func showHelp() {
 	fmt.Println("\t -build     create the scaffold")
 	fmt.Println("\t -run       run server!")
 	fmt.Println("")
-	fmt.Println("Visit http://github.com/viniciuswebdev/goahead for many informations")
+	fmt.Println("Visit http://github.com/Zocprint/go301 for many informations")
 }
 
 func buildScaffold(db *database.Database) {
